@@ -7,11 +7,10 @@ class App extends Component {
   render() {
     return (
       <div>
-        <NavBar/>
-        <Container className="main">
-           <EventDashboard />
-        </Container>
-        
+          <NavBar/>
+          <Container className="main">
+            <EventDashboard />
+          </Container> 
       </div>
       
     );
